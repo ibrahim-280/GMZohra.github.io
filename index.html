@@ -494,29 +494,16 @@
   <div class="row">
     <div class="col-md-6 ">
       <form action="https://formspree.io/f/xovagvqb" method="POST">
-        <div class="contact_form-container">
-          <div>
-            <div>
-              <input type="text" name="full-name" placeholder="Full Name" required />
-            </div>
-            <div>
-              <input type="email" name="email" placeholder="Email" required />
-            </div>
-            <div>
-              <input type="text" name="phone" placeholder="Phone Number" required />
-
-            </div>
-            <div class="">
-              <input type="text" name="message" placeholder="Message" class="message_input" required />
-            </div>
-            <div class="">
-              <button type="submit">
-                SUBMIT
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="text" name="phone" placeholder="Phone Number" required />
+        <textarea name="message" placeholder="Message" required></textarea>
+        <input type="hidden" name="form_type" value="contact">
+        <button type="submit">
+          Send
+        </button>
+      </form>
+      
           </div>
           <div class="col-md-6">
             <div class="img-box">
@@ -604,15 +591,15 @@
 
         <div class="col-md-3">
           <div class="info_form ">
-            <h5>
-              Newsletter
-            </h5>
-            <form action="">
-              <input type="email" placeholder="Enter your email">
-              <button>
-                Subscribe
-              </button>
-            </form>
+            <h5>Newsletter</h5>
+<form action="https://formspree.io/f/xovagvqb" method="POST">
+  <input type="email" name="email" placeholder="Enter your email" required>
+  <input type="hidden" name="form_type" value="newsletter">
+  <button type="submit">
+    Subscribe
+  </button>
+</form>
+
             <div class="social_box">
               <a href="">
                 <img src="images/fb.png" alt="">
