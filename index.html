@@ -497,7 +497,10 @@
                                 <input type="text" name="name" placeholder="Full Name" required />
                                 <input type="email" name="email" placeholder="Email" required />
                                 <input type="text" name="phone" placeholder="Phone Number" required />
-                                <input type="text" name="message" placeholder="Message" class="message_input" required />
+                                <div class="">
+                                  <textarea name="message" placeholder="Message" class="message_input" required rows="4" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; resize: none;"></textarea>
+                              </div>
+                              
                                 <input type="hidden" name="form_type" value="contact/query">
                                 <button type="submit">SUBMIT</button>
                             </div>
