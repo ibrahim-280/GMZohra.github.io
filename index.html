@@ -483,37 +483,37 @@
 
   <!-- contact section -->
 
-  <section class="contact_section layout_padding">
+  <section class="contact_section layout_padding"> 
     <div class="container">
-      <div class="heading_container">
-        <h2>
-          Get In touch
-</h2>
-</div>
-<div class="">
-  <div class="row">
-    <div class="col-md-6 ">
-      <form action="https://formspree.io/f/xovagvqb" method="POST">
-        <input type="text" name="name" placeholder="Full Name" required>
-        <input type="email" name="email" placeholder="Email" required>
-        <input type="text" name="phone" placeholder="Phone Number" required />
-        <textarea name="message" placeholder="Message" required></textarea>
-        <input type="hidden" name="form_type" value="contact">
-        <button type="submit">
-          Send
-        </button>
-      </form>
-      
-          </div>
-          <div class="col-md-6">
-            <div class="img-box">
-              <img src="images/map.png" alt="">
-            </div>
-          </div>
+        <div class="heading_container">
+            <h2>Get In Touch</h2> 
         </div>
-      </div>
+        <div class="">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="https://formspree.io/f/xovagvqb" method="POST">
+                        <div class="contact_form-container">
+                            <div>
+                                <input type="text" name="name" placeholder="Full Name" required />
+                                <input type="email" name="email" placeholder="Email" required />
+                                <input type="text" name="phone" placeholder="Phone Number" required />
+                                <textarea name="message" placeholder="Message" required class="message_input"></textarea>
+                                <input type="hidden" name="form_type" value="contact">
+                                <button type="submit">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-box">
+                        <img src="images/map.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
+</section>
+
 
   <!-- end contact section -->
 
@@ -593,11 +593,9 @@
           <div class="info_form ">
             <h5>Newsletter</h5>
 <form action="https://formspree.io/f/xovagvqb" method="POST">
-  <input type="email" name="email" placeholder="Enter your email" required>
-  <input type="hidden" name="form_type" value="newsletter">
-  <button type="submit">
-    Subscribe
-  </button>
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <input type="hidden" name="form_type" value="newsletter">
+    <button type="submit">Subscribe</button>
 </form>
 
             <div class="social_box">
