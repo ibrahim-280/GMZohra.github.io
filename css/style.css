@@ -929,3 +929,31 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+/* Position the submenus (side menu) */
+.dropdown-submenu {
+  position: absolute;
+  left: 100%; /* Place the submenu to the right of the main dropdown */
+  top: 0;
+  margin-top: -1px; /* Align with the parent item */
+  display: none; /* Hide submenu initially */
+}
+
+.dropdown-submenu .dropdown-item {
+  white-space: nowrap; /* Prevent line breaks in submenu items */
+}
+
+/* Show submenu on hover or click */
+.dropdown-menu .dropdown-item:hover + .dropdown-submenu,
+.dropdown-submenu:hover {
+  display: block; /* Show submenu on hover */
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f8f9fa; /* Change background on hover */
+}
+
+/* Fix dropdown width to prevent overflow */
+.dropdown-menu {
+  width: auto; /* Use auto width for dropdown */
+  min-width: 160px; /* Minimum width */
+}
