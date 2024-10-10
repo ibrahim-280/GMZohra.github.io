@@ -957,3 +957,68 @@ a:focus {
   width: auto; /* Use auto width for dropdown */
   min-width: 160px; /* Minimum width */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Grid layout for the categories */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Styling for the images and cross-fade effect */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 300px; /* You can adjust the height as needed */
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.image-container img:nth-child(1) {
+  opacity: 1;
+  animation: fade 5s infinite alternate;
+}
+
+/* Cross-fading effect */
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Styling for clickable text beneath the images */
+.category-item a {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}

@@ -77,18 +77,22 @@
               <li class="nav-item">
                 <a class="nav-link" href="service.html"> Services </a>
               </li>
-              <li class="nav-item dropdown"> <!-- Main Dropdown -->
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Products
-                </a>
+              <li class="nav-item dropdown">
+                <!-- Products Button redirects to product page -->
+                <a class="nav-link" href="product.html">Products</a>
+              
+                <!-- Dropdown Toggle (Separate Icon for Dropdown Menu) -->
+                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+              
+                <!-- Dropdown Menu -->
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   
-                  <!-- Sports Equipment (no submenu, just a link) -->
+                  <!-- Sports Equipment (No submenu, just a link) -->
                   <a class="dropdown-item" href="sports_equipment.html">Sports Equipment</a>
-              
-                  <!-- Custom Products (no submenu, just a link) -->
+                
+                  <!-- Custom Products (No submenu, just a link) -->
                   <a class="dropdown-item" href="custom_products.html">Custom Products</a>
-              
+                
                   <!-- Sports Apparel with Submenu -->
                   <a class="dropdown-item dropdown-toggle" href="#" id="sportsApparelDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Sports Apparel
@@ -100,7 +104,7 @@
                   </div>
                   
                 </div>
-              </li>
+              </li>              
               <!-- Other Menu Items -->
               <!--<li class="nav-item">
                 <a class="nav-link" href="team.html"> Our Team </a>
@@ -128,34 +132,403 @@
         <h2>
           Our Products
         </h2>
+        <p></p>
       </div>
-      <div class="product_container">
-        <div class="box">
-          <img src="images/p-1.jpg" alt="" />
+      <!-- 1st Section: Sports Apparel -->
+<div class="product-section">
+  <h2>Sports Apparel</h2>
+  <p>Explore our range of premium sports apparel, designed for performance and comfort. This section includes Sports Uniforms and Tracksuits.</p>
+
+  <!-- Grid for Uniforms and Track Suits -->
+  <div class="category-grid">
+    <!-- Uniforms Category -->
+    <div>
+      <h3>
+        <a href="uniforms.html" style="text-decoration: none; color: black;">Uniforms</a>
+      </h3>
+      <div id="uniformCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="soccer.html">
+              <img src="images/soccer-uniform-1.jpeg" alt="Soccer Uniform" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Soccer Uniform</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="basketball.html">
+              <img src="images/basketball-jerseys(3).png" alt="Basketball Uniform" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Basketball Uniform</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="baseball.html">
+              <img src="images/baseball-uniform (2).jpeg" alt="Baseball Uniform" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Baseball Uniform</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="football.html">
+              <img src="images/american-football-jerseys(1).jpeg" alt="American Football Uniform" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">American Football Uniform</p>
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="box">
-          <img src="images/p-2.jpg" alt="" />
-        </div>
-        <div class="box">
-          <img src="images/p-3.jpg" alt="" />
-        </div>
-        <div class="box">
-          <img src="images/p-4.jpg" alt="" />
-        </div>
-        <div class="box">
-          <img src="images/p-5.jpg" alt="" />
-        </div>
-        <div class="box">
-          <img src="images/p-6.jpg" alt="" />
-        </div>
-        <div class="box">
-          <img src="images/p-7.jpg" alt="" />
-        </div>
-        <div class="box">
-          <img src="images/p-8.jpg" alt="" />
-        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#uniformCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#uniformCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
+
+    <!-- Track Suits Category -->
+    <div>
+      <h3>
+        <a href="tracksuits.html" style="text-decoration: none; color: black;">Tracksuits</a>
+      </h3>
+      <div id="tracksuitCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="tracksuits.html">
+              <img src="images/tracksuit.jpeg" alt="Track Suit 1" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Track Suits Men</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="tracksuits.html">
+              <img src="images/tracksuit (1).jpeg" alt="Track Suit 2" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Track Suits Women</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#tracksuitCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#tracksuitCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 2nd Section: Biking Gear -->
+<div class="product-section">
+  <h2>Biking Gear</h2>
+  <p>Our biking gear ensures that you ride with comfort, safety, and style, whether you're hitting the open road or the dirt trails.</p>
+
+  <!-- Grid for Biking Gloves and Jackets -->
+  <div class="category-grid">
+    <!-- Biking Gloves Category -->
+    <div>
+      <h3>
+        <a href="biking_gloves.html" style="text-decoration: none; color: black;">Biking Gloves</a>
+      </h3>
+      <div id="bikingGlovesCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="biking_gloves.html">
+              <img src="images/biking-gloves1.png" alt="Biking Glove 1" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Biking Glove 1</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="biking_gloves.html">
+              <img src="images/biking-gloves2.jpeg" alt="Biking Glove 2" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Biking Glove 2</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#bikingGlovesCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#bikingGlovesCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Biking Jackets Category -->
+    <div>
+      <h3>
+        <a href="biking_jackets.html" style="text-decoration: none; color: black;">Biking Jackets</a>
+      </h3>
+      <div id="bikingJacketsCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="biking_jackets.html">
+              <img src="images/Mens-Green-Leather-Jacket-Cafe-Racer-Biker-Motorcycle-Retro-Distressed-Genui (1).jpg" alt="Biking Jacket 1" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Biking Jacket 1</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="biking_jackets.html">
+              <img src="images/boda_red_biker1.jpg" alt="Biking Jacket 2" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Biking Jacket 2</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#bikingJacketsCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#bikingJacketsCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 3rd Section: Sports Equipment -->
+<div class="product-section">
+  <h2>Sports Equipment</h2>
+  <p>In this section, you'll find a wide range of sports equipment, including bats, balls, and an extensive selection of sports gloves. Whether you're looking for soccer balls, cricket bats, volleyballs, basketballs, or protective gloves for various sports, we have everything you need to gear up for your next game.</p>
+
+  <!-- Grid for Sports Equipment and Sports Gloves-->
+  <div class="category-grid">
+    <!-- Sports Equipment Category -->
+    <div>
+      <h3>
+        <a href="sports_equipment.html" style="text-decoration: none; color: black;">Sports Equipment</a>
+      </h3>
+      <div id="sportsEquipmentCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="sports_equipment.html">
+              <img src="images/p-1.jpg" alt="Soccer Ball" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Soccer Balls</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="biking_gloves.html">
+              <img src="images/p-3.jpg" alt="Cricket Bats" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Cricket Bats</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="biking_gloves.html">
+              <img src="images/p-2.jpg" alt="Basket Balls" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Basket Balls</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#sportsEquipmentCarouse" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#sportsEquipmentCarouse" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Biking Jackets Category -->
+    <div>
+      <h3>
+        <a href="sports_equipment.html" style="text-decoration: none; color: black;">Sports Gloves</a>
+      </h3>
+      <div id="sportsGlovesCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="sports_equipment.html">
+              <img src="images/p-6.jpg" alt="Soccer Goal Keeper Gloves" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Soccer Goal Keeper Gloves </p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="sports_equipment.html">
+              <img src="images/sports-gloves1.jpeg" alt="Golf Gloves" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Golf Gloves</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#sportsGlovesCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#sportsGlovesCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 4th Section: Custom or Other Products -->
+<div class="product-section">
+  <h2>Custom or Other Products</h2>
+  <p>Discover our range of customizable products, including hoodies, leather jackets, and t-shirts. Whether you're looking for personalized gear or classic designs, this section has something for everyone.</p>
+
+  <!-- Grid for Hoodies, Leather Jackets, and T-Shirts -->
+  <div class="category-grid">
+    <!-- Hoodies Category -->
+    <div>
+      <h3>
+        <a href="hoodies.html" style="text-decoration: none; color: black;">Hoodies</a>
+      </h3>
+      <div id="hoodiesCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="hoodies.html">
+              <img src="images/hoodie (5).jpeg" alt="Hoodie 1" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Hoodie</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="hoodies.html">
+              <img src="images/hoodie (3).jpeg" alt="Hoodie 2" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Custom Hoodie </p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="hoodies.html">
+              <img src="images/hoodie (1).jpeg" alt="Hoodie 2" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Red Hoodie</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#hoodiesCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#hoodiesCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Leather Jackets Category -->
+    <div>
+      <h3>
+        <a href="leather_jackets.html" style="text-decoration: none; color: black;">Leather Jackets</a>
+      </h3>
+      <div id="leatherJacketsCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="leather_jackets.html">
+              <img src="images/double_breasted_black(1).jpg" alt="Leather Jacket 1" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Leather Jacket 1</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="leather_jackets.html">
+              <img src="images/simple_leather_jacket2.jpg" alt="Leather Jacket 2" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">Leather Jacket 2</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#leatherJacketsCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#leatherJacketsCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- T-Shirts Category -->
+    <div>
+      <h3>
+        <a href="tshirts.html" style="text-decoration: none; color: black;">T-Shirts</a>
+      </h3>
+      <div id="tshirtsCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="tshirts.html">
+              <img src="images/t-shirt (2).jpeg" alt="T-Shirt 1" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">T-Shirt 1</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="tshirts.html">
+              <img src="images/t-shirt (1).jpeg" alt="T-Shirt 2" class="d-block w-100">
+              <div class="carousel-caption">
+                <p style="color: black; font-weight: bold;">T-Shirt 2</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#tshirtsCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#tshirtsCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+  <style>
+    /* Add some margin for spacing */
+    .product-section h3 {
+      margin-bottom: 15px; /* Adjust this value as needed */
+    }
+  </style>
+</div>
   </section>
 
   <!-- end product section -->
